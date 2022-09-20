@@ -1,22 +1,186 @@
 <!DOCTYPE html>
 <html lang="ru">
 
-   <head itemscope itemtype="http://schema.org/WebSite">
+<head itemscope itemtype="http://schema.org/WebSite">
 
-      <meta charset="utf-8">
-      <meta http-equiv="x-ua-compatible" content="ie=edge">
-      <meta name="msapplication-tap-highlight" content="no">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta charset="utf-8">
+   <meta http-equiv="x-ua-compatible" content="ie=edge">
+   <meta name="msapplication-tap-highlight" content="no">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-      <title>Project</title>
+   <title>Project</title>
 
-      <link rel="stylesheet" href="./app.css">
+   <link rel="stylesheet" href="./app.css">
 
-   </head>
+</head>
 
-   <body itemscope itemtype="http://schema.org/WebPage">
-      
-      <script type="text/javascript" src="./app.js"></script>
-      
-  </body>
+<body itemscope itemtype="http://schema.org/WebPage">
+   <header class="header">
+      <div class="container">
+         <div class="logo-wrapper">
+            <a class="logo" href="a">Project</a>
+         </div>
+         <div class="logo-ph">
+            <img class="logo-photo" src="breaking.png" alt="walt" />
+         </div>
+
+         <nav class="menu-bar">
+            <div class="menu-points">
+               <a href="a">Information</a>
+               <a href="a">Hopes</a>
+               <a href="a">Experience</a>
+            </div>
+         </nav>
+      </div>
+   </header>
+   <section class="introduce" id="introducing">
+
+      <div class="container">
+         <hr class="section-line" />
+         <h1 class="section-inf">Information about me</h1>
+         <div class="info-text">
+            <p>
+               Павлюшин Максим Юрійович, ФПМ, КП-03
+            </p>
+            <p>
+               Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod
+               tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim
+               veniam, quis nostrum exercitationem ullam corporis suscipit
+               laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute
+               iure reprehenderit in voluptate velit esse cillum dolore eu fugiat
+               nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt
+               in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <p>
+               Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+               accusantium doloremque laudantium, totam rem aperiam eaque ipsa,
+               quae ab illo inventore veritatis et quasi architecto beatae vitae
+               dicta sunt, explicabo.
+            </p>
+
+         </div>
+         <div class="inf-wrapper">
+            <!---->
+
+            <div class="inf-popup">
+               <div class="inf-content">
+                  <div class="title">
+                     <label for="popupCheckBox-3" class="popup-closer">&#215;</label>
+                     <h2>Teacher Info</h2>
+                  </div>
+                  <div class="card-content">
+                     <div class="image-card">
+                        <img src="walt.jpg" alt="Walter" />
+                     </div>
+                     <div class="card-info">
+                        <h3 class="name">Max Pavliushyn</h3>
+                        <h4 class="job">Student</h4>
+                        <h5 class="country">Kyiv, Ukraine</h5>
+                        <h5>19, Male</h5>
+                        <a href="ihor_tkachuk@domain.com">max.pavlyushin@gmail.com.com</a>
+                        <h5>+380964993252</h5>
+                     </div>
+                  </div>
+                  <div class="txt">
+                     My name is Walter Hartwell White. I live at 308 Negra Arroyo Lane,
+                     Albuquerque, New Mexico, 87104. To all law enforcement entities,
+                     this is not an admission of guilt. I am speaking to my family now.
+                     Skyler, you are the love of my life. I hope you know that. Walter Jr.,
+                     you're my big man. There are going to be some things that you'll come to
+                     learn about me in the next few years. But just know that no matter how
+                     it may look, I only had you in my heart. Goodbye.
+                  </div>
+                  <div>
+                     <a class="card-cont-a" href="#">toogle map</a>
+                  </div>
+               </div>
+            </div>
+
+            <!---->
+            <div class="my-promo">
+               <div class="initial-wrapper">
+                  <div class="initials">M.P</div>
+               </div>
+               <h2 class="name">Max<br />Pavliushyn</h2>
+               <p class="faculty">FAM</p>
+               <p class="group">КП-03</p>
+            </div>
+         </div>
+      </div>
+   </section>
+   <section class="statistics">
+      <div class="container">
+         <hr class="section-line" />
+         <h1 class="section-title">My experience</h1>
+         <table class="statistics-table">
+            <tr class="column-titles">
+               <td class="column-titles-language">Language of programming</td>
+               <td class="column-titles-years">Years of studying</td>
+
+            </tr>
+            <tr class="my-statistics">
+               <td class="my-stats-language">C#</td>
+               <td class="my-stats-years">2</td>
+            </tr>
+            <tr class="my-statistics-white">
+               <td class="my-stats-language">SQL</td>
+               <td class="my-stats-years">1</td>
+            </tr>
+            <tr class="my-statistics">
+               <td class="my-stats-language">HTML+CSS+JS</td>
+               <td class="my-stats-years">0.5</td>
+            </tr>
+            <tr class="my-statistics-white">
+               <td class="my-stats-language">Python</td>
+               <td class="my-stats-years">0.5</td>
+            </tr>
+         </table>
+      </div>
+   </section>
+   <section class="additional-info">
+      <div class="container">
+
+         <hr class="section-line" />
+         <h1 class="section-title">Hopes from course</h1>
+         <div class="info-text">
+            <p>
+               Більш досконало вивчити css, js, почати вчити React, навчитися поєднувати
+               front та back. Можливо виконати певний проект у команді. Вдосконалити вивчене
+               у минулому.
+            </p>
+            <p>
+               Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod
+               tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim
+               veniam, quis nostrum exercitationem ullam corporis suscipit
+               laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute
+               iure reprehenderit in voluptate velit esse cillum dolore eu fugiat
+               nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt
+               in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <p>
+               Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+               accusantium doloremque laudantium, totam rem aperiam eaque ipsa,
+               quae ab illo inventore veritatis et quasi architecto beatae vitae
+               dicta sunt, explicabo.
+            </p>
+         </div>
+      </div>
+   </section>
+   <footer class="footer">
+      <div class="container">
+         <nav class="menu-bar">
+            <div class="menu-points">
+               <a href="#">Information</a>
+               <a href="#">Hopes</a>
+               <a href="#">Experience</a>
+            </div>
+         </nav>
+      </div>
+   </footer>
+
+
+   <script type="text/javascript" src="./app.js"></script>
+
+</body>
+
 </html>

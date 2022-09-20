@@ -1,3 +1,402 @@
-.name{
-    color: aqua;
-}
+body {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #222;
+    background-color: #F5F5DC;
+    margin: 0 auto;
+    
+  }
+  
+  body,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  div,
+  ul,
+  li,
+  hr,
+  input,
+  button,
+  table,
+  td,
+  tr {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 1000px;
+   margin: 0 auto;
+  }
+  
+  .header {
+    padding-top: 35px;
+  }
+  
+  .logo-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    font-family: "Lora", serif;
+    font-weight: 700;
+    font-size: 45px;
+    color: violet;
+    text-shadow: 1px 1px #191919, -1px -1px yellow;
+  }
+  
+  .logo:hover {
+    transition: all 0.1s ease;
+    cursor: pointer;
+    text-shadow: 2.5px 0.5px #191919, -3px -0.5px #800080;
+  }
+  
+  .menu-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+  }
+  
+  .menu-points {
+    width: 460px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .menu-points a {
+    text-decoration: none;
+    color: #dc143c;
+    font-weight: 600;
+    font-size: 22px;
+  }
+  
+  .menu-points a:hover {
+    transition: all 0.3s ease;
+    color: #b00000;
+  }
+  
+  .introduce {
+    padding-top: 40px;
+    text-align: left;
+  }
+  
+  .section-line {
+    border: none;
+    height: 1px;
+    width: 500px;
+    background-color: #222;
+    margin: 0 auto;
+  }
+  
+  .section-inf {
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    margin-top: 25px;
+    text-align: center;
+  }
+  
+  .inf-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 150px);
+    gap: 35px 50px;
+    margin-top: 55px;
+  }
+  
+  .my-promo {
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    left: 425px;
+  }
+  
+  .logo-photo {
+    width: 250px;
+    height: 140px;
+    position: absolute;
+    left: 1000px;
+    top: 50px;
+  }
+  
+  .my-promo:hover {
+    transition: all 0.3s ease;
+    border-color: #b00000;
+  }
+  
+  .my-promo .initial-wrapper {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    border: 5px solid #dc143c;
+    margin-bottom: 15px;
+  }
+  
+  
+  .my-promo:hover .initial-wrapper {
+    transition: all 0.3s ease;
+    border-color: #b00000;
+  }
+  
+  .my-promo .initials {
+    color: #dc143c;
+    font-size: 26px;
+    font-weight: 600;
+  }
+  
+  .my-promo:hover .initials {
+    transition: all 0.3s ease;
+    color: #b00000;
+    font-size: 30px;
+  }
+  
+  .my-promo .name {
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  .my-promo .faculty {
+    color: #999;
+    margin-top: 16px;
+    margin-bottom: 7px;
+  }
+  
+  .my-promo .group {
+    font-size: 12px;
+  }
+  
+  
+  .my-promo .visible {
+    display: block;
+  }
+  
+  .statistics {
+    padding-top: 60px;
+    text-align: center;
+  }
+  
+  .statistics-table {
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+    margin-top: 40px;
+  }
+  
+  .section-title {
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    margin-top: 25px;
+    text-align: center;
+  }
+  
+  .column-titles {
+    font-size: 100%;
+    border-bottom: 1px solid #222;
+    height: 45px;
+  }
+  
+  .column-titles td {
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .column-titles td:hover {
+    background-color: #E0CFB1;
+    border-bottom: 3px solid #222;
+  }
+  
+  .column-titles-language {
+    width: 240px;
+    text-align: center;
+  }
+  
+  .my-stats-language {
+    width: 240px;
+    padding-left: 15px;
+  }
+  
+  .column-titles-years {
+    width: 230px;
+    text-align: center;
+  }
+  
+  .my-stats-years {
+    width: 230px;
+    text-align: center;
+  }
+  
+  .my-statistics-white {
+    background-color: #E0CFB1;
+    height: 35px;
+    font-size: 14px;
+  }
+  
+  .my-statistics {
+    height: 35px;
+    font-size: 14px;
+  }
+  
+  .additional-info {
+    padding-top: 55px;
+  }
+  
+  .info-text {
+    margin-top: 45px;
+    font-size: 14px;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .footer {
+    padding-top: 40px;
+    padding-bottom: 30px;
+  }
+  
+  .footer .menu-bar {
+    margin: 0;
+  }
+  .inf-popup {
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    display: none;
+  }
+
+  .visible {
+    display: flex;
+  }
+  
+  .inf-popup::before {
+    display: block;
+    content: " ";
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    opacity: 0.5;
+  }
+  
+  .inf-content {
+    width: 600px;
+    height: 380px;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: #fff;
+    padding: 60px 20px 0 20px;
+    box-sizing: border-box;
+  }
+  
+  .popup-closer {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #999;
+    font-size: 45px;
+    display: block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .popup-closer:hover {
+    color: #eee;
+  }
+  
+  .inf-content h2 {
+    background: #464547;
+    color: white;
+    text-align: start;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding-left: 7px;
+    font-size: 16px;
+  }
+  
+  .inf-content > div.title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+  
+  .inf-content > div.card_content {
+    width: 100%;
+  }
+  
+  .card-content {
+    margin-bottom: 20px;
+  }
+  
+  .image-card img {
+    float: left;
+    width: 200px;
+    height: 200px;
+  }
+  
+  .card-info {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-bottom: 65px;
+    position: relative;
+    left: 40px;
+    row-gap: 15px;
+  }
+  
+  .card-info > h3 {
+    font-size: 24px;
+    font-family: "Source Sans Pro", sans-serif;
+  }
+  
+  .card-info > h4 {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 14px;
+  }
+  
+  .card-info > h5,
+  .card-info > a {
+    text-decoration: none;
+    font-size: 10px;
+  }
+  
+  div.txt {
+    text-align: left;
+    font-size: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .card-cont-a {
+    display: flex;
+  }
+  
